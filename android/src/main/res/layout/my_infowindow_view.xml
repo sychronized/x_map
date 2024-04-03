@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/my_infowindow_bg"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/infoWindowIv"
+        android:src="@drawable/ic_duty_out"
+        android:layout_width="23dp"
+        android:layout_height="23dp"/>
+
+    <TextView
+        android:id="@+id/infoWindowTv"
+        android:layout_marginStart="6dp"
+        android:text="您当前在责任区外"
+        android:textSize="12sp"
+        android:textColor="#E5E5E5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
