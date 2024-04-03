@@ -1,10 +1,10 @@
 name: x_map
 description: 雄地图组件
-version: 1.0.0
-homepage: http://www.ourmatter.top/
+version: 1.0.1
+homepage: https://github.com/sychronized/x_map
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.14.0 <4.0.0"
   flutter: ">=1.20.0"
 
 dependencies:

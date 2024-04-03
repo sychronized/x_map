@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 import 'dart:ui' show Color;
 import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:meta/meta.dart';
 import 'package:x_map/x_map.dart';
 
 /// 地图类型
